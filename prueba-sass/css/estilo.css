@@ -41,7 +41,7 @@ a {
   color: #0f0f0e;
   font-family: 'Zen Loop', cursive;
   font-size: 35px; 
-  font-weight: bold;
+  
 }
 
 h1 {
@@ -374,3 +374,7 @@ legend {
   justify-content: center;
   font-family: "Zen Loop";
   font-size: 30px; }
+
+.LetraEnNegro{
+  font-weight: bold;
+}
