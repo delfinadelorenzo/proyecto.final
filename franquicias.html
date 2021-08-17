@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+    <meta name="description" content="Pagina oficial para adquirir una franquicia de Gelaciao Helados"> 
+    <meta name="keywords" content="Franquicias, Helados, La Plata">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba-sass/css/estilo.css">
+    <title>Franquicias</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarScroll">
+                    <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="franquicias.html">Franquicias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="sabores.html" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sabores
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="sabores.html">Frutas Agua </a></li>
+                                <li><a class="dropdown-item" href="sabores.html">Frutas Crema </a></li>
+                                <li><a class="dropdown-item" href="sabores.html">Cremas </a></li>
+                                <li><a class="dropdown-item" href="sabores.html">Dulce de Leche</a></li>
+                                <li><a class="dropdown-item" href="sabores.html">Chocolate</a></li>
+                                <li><a class="dropdown-item" href="sabores.html">Sabores Destacados</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <a href="https://www.facebook.com/GelaciaoHelados/" target="_blank"><img
+                                src="imagenes/facebook.svg" alt="" width="24px"></a>
+                        <a href="https://www.instagram.com/gelaciaohelado/?hl=es" target="_blank"> <img
+                                src="imagenes/iconosredes/16.16.svg" alt="" width="20px"></a>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>
+                    FRANQUICIAS
+                </h1>
+            </div>
+            <div>
+                <h2>¿Querés formar parte de la familia Gelaciao?</h2>
+            </div>
+
+            <section class="FormulariosCompletos">
+                <p> Completa el formulario que nos pondremos en contacto contigo!</p>
+
+            </section>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-8 form_Franquicias">
+                        <form action="https://formspree.io/f/xvodwjrw" method="POST">
+                            <div>
+                                <label for="nombre" class="titulos__Franquicias">Nombre Apellido</label>
+                                <input class="form-control" type="text" placeholder="Nombre Apellido"
+                                    aria-label="default input example" id="nombre">
+                            </div>
+                            <div>
+                                <label for="email" class="titulos__Franquicias">Mail de contacto</label>
+                                <input type="email" name="_replyto" class="form-control" placeholder="Mail de contacto"
+                                aria-label="default input example" id="email">
+                            </div>
+
+                            <div class="form-floating">
+                                <div>
+                                    <label for="floatingTextarea2" class="titulos__Franquicias">Deja un comentario </label>
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 140px; width: 850px;"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-success boton__Franquicias">Send</button>
+                        </form>
+
+                    </div>
+                    <div class="col-4 imagenesFranquicias">
+                        <img src="imagenes/calle21.jpg" class="rounded-circle" alt="...">
+                        <img src="imagenes/franquicia.jpg" class="rounded-circle" alt="...">
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
+
+    <footer>
+        <div class="cuadradoFooter">
+            <ul class="navegadorInicio">
+                <li><a href="inicio.html"> Inicio </a></li>
+                <li><a href="historia.html"> Historia </a></li>
+                <li><a href="franquicias.html"> Franquicias </a></li>
+                <li><a href="sucursales.html"> Sucursales </a></li>
+                <li><a href="sabores.html"> Sabores </a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="container-fluid cuadradoFooter">
+            <div class="row">
+                <div class="col">
+                    <form class="newsLatter" action="https://formspree.io/f/xjvjajjk" method="POST">
+                        <label>
+                            Suscribite a nuestro newsLatter
+                            <input type="email" name="_replyto">
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="botonesFooter">
+                        <div>
+                            <a class="footerInfo">(+54)221-453-7410</a>
+                            <a class="footerInfo"> gelaciao@gmail.com</a>
+                            <a class="footerInfo"> Calle 21, 1789</a>
+                            <div class="botonesFooter__redesSociales">
+                                <a class="footerInfo" href="https://www.facebook.com/GelaciaoHelados/"
+                                    target="_blank"><img src="imagenes/facebook.svg" alt="" width="24px"></a>
+                                <a class="footerInfo" href="https://www.instagram.com/gelaciaohelado/?hl=es"
+                                    target="_blank"> <img src="imagenes/iconosredes/16.16.svg" alt="" width="20px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

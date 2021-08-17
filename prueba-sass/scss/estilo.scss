@@ -1,0 +1,455 @@
+/*NAVEGADOR*/
+
+
+body{
+    background-image: url(../../imagenes/fondodisfuminado.jpg);
+    background-size: cover;
+}
+
+
+ul{
+    list-style:none;
+    
+    }
+.navegadorInicio{
+    
+        display: flex;
+        justify-content: center;
+    
+}
+li{
+    display: inline-block;
+    width: 200px;    
+    height: auto;    
+    position: relative;    
+    text-align: center;
+    
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+}
+
+/*-------------------*/
+
+/*ICONO FB E INSTAGRAM*/
+.imagenIconos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-------------------*/
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(15, 15, 14);
+    font-family: 'Zen Loop', cursive;
+    font-size: 35px;
+
+}
+
+
+h1{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 90px;
+    
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: underline burlywood;
+    font-family: 'Zen Loop', cursive;
+    font-size: 60px;
+}
+
+
+p{
+    text-align: center;
+    font-family:'Zen Loop', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: tan;
+    font-weight: bold;
+}
+
+.tituloPrincipal{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 80px;
+
+}
+
+.subtituloInicio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline burlywood;
+    font-family: 'Zen Loop', cursive;
+    font-size: 60px;
+    letter-spacing: 10px;
+
+}
+
+
+
+
+
+/*PROMOCIONES*/
+.promocionesTitulo{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.promociones {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    height: 300px;    
+}
+
+
+.promocionesBoost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cartasPromociones{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+.botonPedirYa{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------*/
+
+/*NOVEDADES*/
+.novedadesInicio{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 62px;
+    font-weight: bold;
+
+}
+
+/*--------------------*/
+
+
+@media only screen and (min-width:768px) {
+    .promociones{
+        flex-direction: row;
+        color: red;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .promociones{
+        flex-direction: row;
+        color: red;
+    }
+}
+
+
+/* ESTILO DE LA TABLA NOVEDADES*/
+table{
+    
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+table tr{    
+    color: rgb(12, 7, 1);
+    text-align: center;
+    font-family:'Zen Loop', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*------------------------------*/
+
+
+/*HISTORIA APLICANDO GRID*/
+
+.diseñoHistoria{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+    padding: 1px;
+    display: grid;
+    grid-template-areas: 'imag1 text1' 
+    'imag2 text1';
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.imag1{
+    grid-area: imag1;
+}
+.imag2{
+    grid-area: imag2;
+}
+.text1{
+    color: rgb(134, 134, 10);
+
+    grid-area: text1;
+    width: 30vw;   
+    
+}
+/*----------------------------*/
+
+
+/*SABORES*/ 
+
+.titulosSabores{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+.liSabores{
+    list-style-type:circle;
+}
+
+.listasSabores{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:#000000;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-image: url('/imagenes/64.svg');
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+}
+
+.espacioTitulos{
+    margin-top: 80px;
+}
+.columnaSabores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listadoTitulos{
+    margin-bottom: 15px;
+}
+.imagenDerecha{
+    margin-right: 52px;
+}
+.imagenesIzquierda{
+    margin-left: 52px;
+}
+/*----------------------*/
+
+/*FRANQUICIAS*/
+
+#SeccVideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+}
+.VideoFranquicia{
+    width: 600px;
+}
+/**/
+.FormulariosCompletos{
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}    
+/* .cajaFormulario{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    } */
+    .formularioDiv{
+        margin-bottom: 50px;
+    }
+    .formularioDiv label{
+        display: block;
+    }
+    legend{
+        margin-bottom: 23px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tamañoColumnas{
+        margin-right: -92px;
+        margin-left: -2px;
+    }
+
+    /*SUCURSALES*/
+    .mapaGoogle{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+    }
+/*FOOTER*/
+
+.footerInfo{
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.estiloFooter{
+    margin-top: 100px;
+}
+
+.botonesFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.botonesFooter__redesSociales{
+    display: flex;
+    justify-content: flex-end;
+}
+.newsLatter{
+    margin-bottom: 50px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;   
+}
+.cuadradoFooter{
+    margin-top: 100px;
+}
+
+.block{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block__pais{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-weight: 15px;
+    color: burlywood;
+}
+.block__provincia{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-weight: 20px;
+    color: burlywood;
+}
+.block__ciudad{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    font-weight: 20px;
+    color: burlywood;
+}
+.searchBarra{
+    display: flex;
+    width: 450px;
+    margin-top: 15px;
+}
+
+$margin:5px;
+$amber:#C4B47C;
+$fin:#E2D9B9;
+$movilidad: flex;
+$justificado: center;
+$tamaño: 30px;
+$saludo: 25px;
+
+.historiaColumna{
+    margin: $margin;
+}
+.historiaColumna__texto1{
+    font-size: $tamaño;
+    color: $amber;
+}
+.historiaColumna__texto2{
+    font-size: $tamaño;
+    color: $amber;
+}
+.historiaColumna__texto3{
+    color: $fin;
+    display: $movilidad;
+    justify-content: $justificado;
+    font-size: $saludo;
+}
+
+.imagenesFranquicias{
+    display: flex;
+    flex-direction:column;
+}
+.form_Franquicias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: pre-line;
+}
+.boton__Franquicias{
+    align-items: center;
+}
+
+$movimiento:flex;
+$contenido:center;
+$tipografia: 'Zen Loop';
+$tamañoletra:30px;
+.titulos__Franquicias{
+    display: $movimiento;
+    justify-content: $contenido;
+    font-family: $tipografia;
+    font-size: $tamañoletra;
+}
+
