@@ -2,7 +2,8 @@
 /*NAVEGADOR*/
 body {
   background-image: url(../../imagenes/fondodisfuminado.jpg);
-  background-size: cover; }
+  background-size: cover;
+  width: 99%; }
 
 ul {
   list-style: none; }
@@ -40,9 +41,7 @@ a {
   text-align: center;
   color: #0f0f0e;
   font-family: 'Zen Loop', cursive;
-  font-size: 35px; 
-  
-}
+  font-size: 35px; }
 
 h1 {
   margin-top: 150px;
@@ -172,8 +171,7 @@ table tr {
   width: 100%;
   padding: 1px;
   display: grid;
-  grid-template-areas: 'imag1 text1' 
- 'imag2 text1';
+  grid-template-areas: 'imag1 text1'  'imag2 text1';
   gap: 50px;
   justify-content: space-around; }
 
@@ -374,7 +372,3 @@ legend {
   justify-content: center;
   font-family: "Zen Loop";
   font-size: 30px; }
-
-.LetraEnNegro{
-  font-weight: bold;
-}
