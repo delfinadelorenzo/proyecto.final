@@ -222,10 +222,12 @@ table tr {
   font-weight: bold; }
 
 .imagenDerecha {
-  margin-right: 52px; }
+  margin-right: 52px;
+  border-radius: 25% !important; }
 
 .imagenesIzquierda {
-  margin-left: 52px; }
+  margin-left: 52px;
+  border-radius: 25% !important; }
 
 /*----------------------*/
 /*FRANQUICIAS*/
