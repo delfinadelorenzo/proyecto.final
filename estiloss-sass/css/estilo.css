@@ -218,7 +218,8 @@ table tr {
   align-items: center; }
 
 .listadoTitulos {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-weight: bold; }
 
 .imagenDerecha {
   margin-right: 52px; }
