@@ -375,3 +375,6 @@ legend {
   justify-content: center;
   font-family: "Zen Loop";
   font-size: 30px; }
+
+.barraNavegacionFooter {
+  align-items: center; }
