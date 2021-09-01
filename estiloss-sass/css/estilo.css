@@ -57,17 +57,6 @@ p {
   color: tan;
   font-weight: bold; }
 
-.tituloPrincipal {
-  margin-top: 150px;
-  margin-bottom: 80px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 35px;
-  font-family: 'Zen Loop', cursive;
-  font-size: 100px;
-  font-weight: bold;
-  letter-spacing: 80px; }
-
 .subtituloInicio {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -365,3 +354,9 @@ legend {
 
 .FooterNav {
   font-weight: bold; }
+
+.ColForm {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  white-space: pre-line; }
