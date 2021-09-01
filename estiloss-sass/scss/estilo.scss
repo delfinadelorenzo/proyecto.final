@@ -344,37 +344,7 @@ table tr{
     align-items: flex-end;
     width: 500px;
     }
-/*FOOTER*/
 
-.footerInfo{
-    font-size: medium;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.estiloFooter{
-    margin-top: 100px;
-}
-
-.botonesFooter{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.botonesFooter__redesSociales{
-    display: flex;
-    justify-content: flex-end;
-}
-.newsLatter{
-    margin-bottom: 50px;
-    font-family: 'Zen Loop', cursive;
-    font-size: 30px;   
-}
-.cuadradoFooter{
-    margin-top: 100px;
-}
 
 .block{
     margin-top: 5px;
@@ -465,3 +435,26 @@ $tamañoletra:30px;
     align-items: center;
 }
 
+.PersonalizandoFot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BotonSEND{
+    font-size: 25px;
+    color: #FFA000;
+    border-color: #FFA000;
+    background-color: transparent;
+}
+.LetraForm{
+    font-family: 'Zen Loop';
+    font-size: 25px;
+    font-weight: bold;
+}
+.FooterFinal{
+    background-color: bisque;
+    margin-top: 50px;
+}
+.FooterNav{
+    font-weight: bold;
+}
