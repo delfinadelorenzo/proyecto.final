@@ -282,13 +282,7 @@ table tr{
     display: flex;
     flex-direction: column;
 }    
-/* .cajaFormulario{
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: space-around;
-    } */
+
     .formularioDiv{
         margin-bottom: 50px;
     }
@@ -442,9 +436,9 @@ $tamañoletra:30px;
 }
 .F_titulo{
     font-family: 'Zen Loop';
-    font-size: 80px;
+    font-size: 90px;
     display: flex;
-    letter-spacing: 5px;
+    letter-spacing: 2.5px;
     /* flex-direction: row; */
     justify-content: center;
     margin-top: 150px;
@@ -452,4 +446,8 @@ $tamañoletra:30px;
 
 .fotoFooter{
     width: -webkit-fill-available;
+}
+.SaboresNav{
+    color: tan;
+    font-weight: bold;
 }
