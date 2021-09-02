@@ -67,7 +67,7 @@ a{
 p{
     text-align: center;
     font-family:'Zen Loop', cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -82,7 +82,7 @@ p{
     text-align: center;
     text-decoration: underline burlywood;
     font-family: 'Zen Loop', cursive;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 10px;
 
 }
@@ -426,6 +426,7 @@ $tamañoletra:30px;
     font-weight: bold;
 }
 .FooterFinal{
+    width: 101%;
     background-color: bisque;
     margin-top: 50px;
 }
@@ -438,4 +439,17 @@ $tamañoletra:30px;
     flex-direction: column;
     align-items: stretch;
     white-space: pre-line;
+}
+.F_titulo{
+    font-family: 'Zen Loop';
+    font-size: 80px;
+    display: flex;
+    letter-spacing: 5px;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.fotoFooter{
+    width: -webkit-fill-available;
 }
