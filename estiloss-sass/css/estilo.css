@@ -147,7 +147,7 @@ table tr {
   width: 100%;
   padding: 1px;
   display: grid;
-  grid-template-areas: 'imag1 text1'  'imag2 text1';
+  grid-template-areas: 'imag1 text1' 'imag2 text1';
   gap: 50px;
   justify-content: space-around; }
 
@@ -236,10 +236,6 @@ legend {
   display: flex;
   flex-direction: row;
   justify-content: center; }
-
-.tamañoColumnas {
-  margin-right: -92px;
-  margin-left: -2px; }
 
 /*SUCURSALES*/
 .mapaGoogle {
@@ -370,3 +366,55 @@ legend {
 .SaboresNav {
   color: tan;
   font-weight: bold; }
+
+.grid-1 {
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: baseline; }
+
+.item-simple, .item-doble {
+  display: flex;
+  justify-content: center;
+  font-family: 'Zen Loop';
+  font-size: 29px;
+  text-align: center; }
+
+.item-doble {
+  flex-direction: column;
+  align-items: center; }
+  .item-doble span {
+    font-size: 18px; }
+
+form.form-franquicia {
+  padding: 0 20px; }
+
+div.button-container {
+  display: flex;
+  justify-content: center; }
+
+div.flex-center {
+  display: flex;
+  justify-content: center; }
+
+.custom-textarea {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  padding: .375rem .75rem; }
+
+@media (max-width: 1255px) and (min-width: 992px) {
+  li.nav-item {
+    width: unset;
+    margin: 0 4.5%; } }
+
+@media (max-width: 768px) {
+  .item-simple, .item-doble {
+    font-size: 25px;
+    line-height: 23px; }
+  #img-franquicia {
+    display: flex;
+    justify-content: center; }
+  .searchBarra {
+    width: 100%; } }

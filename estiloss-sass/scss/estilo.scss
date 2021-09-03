@@ -14,21 +14,21 @@ body{
 
 ul{
     list-style:none;
-    
+
     }
 .navegadorInicio{
-    
+
         display: flex;
         justify-content: center;
-    
+
 }
 li{
     display: inline-block;
-    width: 200px;    
-    height: auto;    
-    position: relative;    
+    width: 200px;
+    height: auto;
+    position: relative;
     text-align: center;
-    
+
 }
 ul ul{
     position: absolute;
@@ -61,7 +61,7 @@ a{
 
 }
 
- 
+
 
 
 p{
@@ -105,8 +105,8 @@ p{
     padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;    
-    height: 300px;    
+    justify-content: space-around;
+    height: 300px;
 }
 
 
@@ -167,13 +167,13 @@ p{
 
 /* ESTILO DE LA TABLA NOVEDADES*/
 table{
-    
+
     width: 100%;
     margin-top: 80px;
     margin-bottom: 50px;
-    
+
 }
-table tr{    
+table tr{
     color: rgb(12, 7, 1);
     text-align: center;
     font-family:'Zen Loop', cursive;
@@ -191,7 +191,7 @@ table tr{
     width: 100%;
     padding: 1px;
     display: grid;
-    grid-template-areas: 'imag1 text1' 
+    grid-template-areas: 'imag1 text1'
     'imag2 text1';
     gap: 50px;
     justify-content: space-around;
@@ -207,13 +207,13 @@ table tr{
     color: rgb(134, 134, 10);
 
     grid-area: text1;
-    width: 30vw;   
-    
+    width: 30vw;
+
 }
 /*----------------------------*/
 
 
-/*SABORES*/ 
+/*SABORES*/
 
 .titulosSabores{
     margin-top: 100px;
@@ -266,7 +266,7 @@ table tr{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
+
 
 }
 .VideoFranquicia{
@@ -281,7 +281,7 @@ table tr{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-}    
+}
 
     .formularioDiv{
         margin-bottom: 50px;
@@ -295,10 +295,7 @@ table tr{
         flex-direction: row;
         justify-content: center;
     }
-    .tamañoColumnas{
-        margin-right: -92px;
-        margin-left: -2px;
-    }
+
 
     /*SUCURSALES*/
     .mapaGoogle{
@@ -450,4 +447,73 @@ $tamañoletra:30px;
 .SaboresNav{
     color: tan;
     font-weight: bold;
+}
+
+.grid-1 {
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: baseline;
+}
+
+.item-simple, .item-doble {
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen Loop';
+    font-size: 29px;
+    text-align: center;
+}
+
+.item-doble {
+    flex-direction: column;
+    align-items: center;
+    span {
+        font-size: 18px;
+    }
+}
+form.form-franquicia {
+    padding: 0 20px;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-textarea {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+
+}
+
+
+
+@media (max-width: 1255px) and (min-width: 992px ) {
+    li.nav-item {
+        width: unset;
+        margin: 0 4.5%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .item-simple, .item-doble {
+        font-size: 25px;
+        line-height: 23px;
+    }
+    #img-franquicia {
+       display: flex;
+       justify-content: center;
+    }
+    .searchBarra {
+        width: 100%;
+    }
 }
