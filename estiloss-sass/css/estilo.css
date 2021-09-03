@@ -158,7 +158,7 @@ table tr {
   grid-area: imag2; }
 
 .text1 {
-  color: #86860a;
+  color: #F57C00;
   grid-area: text1;
   width: 30vw; }
 
@@ -282,17 +282,17 @@ legend {
 
 .historiaColumna__texto1 {
   font-size: 30px;
-  color: #C4B47C; }
+  color: #080500; }
 
 .historiaColumna__texto2 {
   font-size: 30px;
-  color: #C4B47C; }
+  color: #080500; }
 
 .historiaColumna__texto3 {
-  color: #E2D9B9;
+  color: #FFA000;
   display: flex;
   justify-content: center;
-  font-size: 25px; }
+  font-size: 40px; }
 
 .imagenesFranquicias {
   display: flex;
@@ -418,3 +418,13 @@ div.flex-center {
     justify-content: center; }
   .searchBarra {
     width: 100%; } }
+
+.Color-Boton {
+  background-color: transparent;
+  border-color: burlywood;
+  color: #FFA000; }
+
+#Leg-Fcontacto {
+  font-family: 'Zen Loop';
+  font-size: 35px;
+  font-weight: bold; }

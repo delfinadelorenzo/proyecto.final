@@ -204,7 +204,7 @@ table tr{
     grid-area: imag2;
 }
 .text1{
-    color: rgb(134, 134, 10);
+    color: #F57C00;
 
     grid-area: text1;
     width: 30vw;
@@ -341,12 +341,12 @@ table tr{
 }
 
 $margin:5px;
-$amber:#C4B47C;
-$fin:#E2D9B9;
+$amber:#080500;
+$fin:#FFA000;
 $movilidad: flex;
 $justificado: center;
 $tamaño: 30px;
-$saludo: 25px;
+$saludo: 40px;
 
 .historiaColumna{
     margin: $margin;
@@ -516,4 +516,14 @@ div.flex-center {
     .searchBarra {
         width: 100%;
     }
+}
+.Color-Boton{
+    background-color: transparent;
+    border-color: burlywood;
+    color: #FFA000;
+}
+
+#Leg-Fcontacto{    font-family: 'Zen Loop';
+    font-size: 35px;
+    font-weight: bold;
 }
